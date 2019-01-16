@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata fileAssetGuid="4ece0ee2-c268-4636-bf2a-16e454befe57" assetTypeId="CompanionFile">
+  <topic id="4ece0ee2-c268-4636-bf2a-16e454befe57" revisionNumber="18" createDate="2018-08-01T03:19:00.000">
+    <title>Live events in Yammer</title>
+    <tableOfContentsTitle>Yammer live events</tableOfContentsTitle>
+  </topic>
+  <attributes>
+    <attribute name="Catalog Container">System_Default_Catalog</attribute>
+    <attribute name="Collections">Adm_Yammer</attribute>
+    <attribute name="Content Set Container">System_Default_Content_Set</attribute>
+    <attribute name="Content Summary">Learn what's needed to host live video events for Yammer users.</attribute>
+    <attribute name="DCSext.Audience">Admin</attribute>
+    <attribute name="DCSext.ContentType">article (conceptual overviews)</attribute>
+    <attribute name="DCSext.DeliveryChannel">Office.com</attribute>
+    <attribute name="DCSext.Product">OFFICE365</attribute>
+    <attribute name="DCSext.RelatedProducts">Office 365 Enterprise admin</attribute>
+    <attribute name="DCSext.RelatedProducts">Yammer Enterprise</attribute>
+    <attribute name="ProjectFileAssetType">DocSchema</attribute>
+    <attribute name="ProjectPublishingDestination">SOC</attribute>
+    <attribute name="Set_Free_Tag">Enterprise</attribute>
+    <attribute name="Set_Free_Tag">Migrate-Enterprise</attribute>
+    <attribute name="search.contenttype">article (conceptual overviews)</attribute>
+    <attribute name="search.audienceType">Admin</attribute>
+    <attribute name="search.appverid">MOE150</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Office 365 Enterprise admin</attribute>
+    <attribute name="search.skuid">MOE150</attribute>
+    <attribute name="search.appverid">YAE150</attribute>
+    <attribute name="search.softwareVersion">15</attribute>
+    <attribute name="search.sku">Yammer Enterprise</attribute>
+    <attribute name="search.skuid">YAE150</attribute>
+    <attribute name="search.assetid">4ece0ee2-c268-4636-bf2a-16e454befe57</attribute>
+    <attribute name="C3_ENABLED">True</attribute>
+  </attributes>
+</metadata>

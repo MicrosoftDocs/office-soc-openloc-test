@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?><topic id="4ece0ee2-c268-4636-bf2a-16e454befe57" revisionNumber="18"><developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<introduction>
+		
+		<alert class="note">
+			<para>The information in this topic applies to the public preview release of live events supported by Yammer, Teams, and Stream.</para>
+		</alert>
+		<para>Yammer is where communities thrive - it might be a community centered around leaders engaging with their employees, a community of common interest, a community of people who share an identity, or a community of learning and shared practices. There are times when you'd like to bring the members of these communities together, centered around an event. Using Yammer, Teams, and Stream, Yammer group admins can now host live video events for Yammer users that include Yammer conversations before, during, and after the event.</para>
+		<para>Due to the open nature of Yammer conversations, Yammer is a particularly well-suited place to foster connection and engagement between leaders and employees at every level in your organization. Hosting your next live event in your Leadership Connection community is a great way for leadership teams to drive alignment of your people around shared purpose and goals. Leaders realize that organizations who do this well have an advantage in attracting and retaining an engaged workforce.</para>
+		<para>You can create a public group to reach all employees, or use a private group for your live events, and only those with membership in the group can participate. Before the event, you have a place in Yammer to direct employees and/or group members to where you can show preview clips to generate buzz, announce an open call for questions in a Q&amp;A segment, or just a place for people to chat about the upcoming event. </para>
+		<para>Following an event, it’s easy to make the recording available on an event page, allowing employees to watch the event on their own schedule. For employees who are in different time zones or unable to attend live, the conversation keeps going so they still feel connected to leaders and peers, helping to overcome geographical or organizational boundaries.</para>
+		<para>For information about what a live event looks like, see <link xlink:href="4b08133c-9ebb-47b0-ab60-4dbfd4bfc965">Attend a live event in Yammer</link>. For steps to create a live event, see <link xlink:href="105dd7af-9caf-4a5e-8a44-56d203e96551">Organize a live event in Yammer</link>.</para>
+		<para>Here’s what needs to be in place for your organization to create a live event:</para>
+		<list class="bullet">
+			<listItem>
+				<para>Everyone who participates in the meeting must have an Office 365 subscription that includes licenses for Yammer, Teams, and Stream (An Office 365 Enterprise E3, E5 subscription). If you are new to Teams, visit the <externalLink><linkText>Microsoft Teams help center</linkText><linkUri>https://support.office.com/en-us/Teams</linkUri></externalLink>. If you are new to Stream, visit the <externalLink><linkText>Microsoft Stream help center</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=2007473</linkUri></externalLink>. </para>
+			</listItem>
+			<listItem>
+				<para>In Yammer, your organization must have <ui>Enforce Office 365 identity</ui> selected, and you must be using Office 365 connected groups. For more information see <link xlink:href="008f940b-6bec-47fc-bcc6-9c6133467562">Enforce Office 365 identity for Yammer users</link> and <link xlink:href="d8c239dc-a48b-47ab-b85e-6b4b8191a869">Yammer and Office 365 groups</link>.</para>
+			</listItem>
+			<listItem>
+				<para>You must have a Yammer group that includes everyone who will be invited to the live event. For more information, see <link xlink:href="b407af4f-9a58-4b12-b43e-afbb1b07c889">Create a group in Yammer</link> and <link xlink:href="6e05c6d6-5548-4c88-89cd-e6757a514ef2">Manage a group in Yammer</link>. The All Company group can’t be used for live events.</para>
+			</listItem>
+			<listItem>
+				<para>Your organization must have enabled Teams in order to enable event creation. For steps to enable Teams, see <externalLink><linkText>Microsoft Teams getting started guide for IT admins</linkText><linkUri>https://docs.microsoft.com/en-us/microsoftteams/teams-quick-start-edu</linkUri></externalLink>. For External Encoder events, this does not mean that attendees need Teams enabled, as they can attend directly from Yammer. If you would like to use QuickStart events, attendees will need Teams enabled.  More information on these options can be found below.</para>
+			</listItem>
+		</list>
+	</introduction>
+	<section>
+		<title>Live event options</title>
+		<content>
+			<para>There are three general methods of creating a live event: a Yammer live event, a Stream-only live event, or a Microsoft Teams live event. What you choose depends on your needs and your audience.</para>
+		</content>
+		<sections>
+			<section>
+				<title>Yammer live event</title>
+				<content>
+					<para>To view your event directly inside of Yammer, create the live event from an Office 365 Group connected Yammer group inside of Yammer.</para>
+					<list class="ordered">
+						<listItem>
+							<para>As a Yammer group admin, select <ui>Group Actions &gt; Create a Live Event</ui>.</para>
+						</listItem>
+						<listItem>
+							<para>This will open Teams. Fill out the Title, Date, and Time.</para>
+						</listItem>
+						<listItem>
+							<para>On the following screen, you will be asked to select your Live event production type. Select one of the following:</para>
+							<list class="bullet">
+								<listItem>
+									<para><legacyBold>Quick start:</legacyBold> Quick start uses the Microsoft Teams client as your producer experience. This is a lightweight option to create the event and invite remote presenters and panelists to participate. This option lets you easily broadcast web cams, slides, screen sharing, etc. If you pick this option viewers will be linked back into Microsoft Teams to watch the broadcast.</para>
+								</listItem>
+								<listItem>
+									<para><legacyBold>External encoder:</legacyBold> For a higher quality production value, the live event is produced using an external hardware or software encoder via Microsoft Stream. Use this option if you already have a production setup (for example, media mixers) that supports streaming to an RTMP service. This method is typically used in auditorium events, such as town halls, where a stream from a media mixer is broadcast to the audience.</para>
+									<para>After the live event is done the same URL/embed code will convert into a recording of the live event and be available immediately in Stream. If you pick this option viewers will be able to watch the live event directly inside of Yammer or in Stream.</para>
+								</listItem>
+							</list>
+						</listItem>
+					</list>
+				</content>
+			</section>
+			<section>
+				<title>Stream-only live event</title>
+				<content>
+					<para>For a Stream-only live event, create your live event directly from within Microsoft Stream.</para>
+					<alert class="important">
+						<para>This live event is not connected to either Yammer or Teams.</para>
+					</alert>
+					<para>The live event is produced using an external hardware or software encoder via Microsoft Stream. Use this option if you already have a production setup (for example, media mixers) that supports streaming to an RTMP service. This method is typically used in auditorium events, such as town halls, where a stream from a media mixer is broadcast to the audience.</para>
+					<para>For full setup information check out the <externalLink><linkText>Creating a live event in Microsoft Stream</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=2007474</linkUri></externalLink>.</para>
+				</content>
+			</section>
+			<section>
+				<title>Teams live event</title>
+				<content>
+					<para>You can also setup a live event directly from Microsoft Teams, but it won't be connected to a Yammer group.</para>
+					<list class="bullet">
+						<listItem>
+							<para>If you pick a <legacyBold>Quick start</legacyBold> event to use the Microsoft Teams client as the producer experience, the live event will not show up in Stream.</para>
+						</listItem>
+						<listItem>
+							<para>If you pick an <legacyBold>External encoder</legacyBold> event, the live event will show up both in Microsoft Teams and in Microsoft Stream.</para>
+						</listItem>
+					</list>
+				</content>
+			</section></sections>
+	</section>
+	<section>
+		<title>See Also</title>
+		<content>
+			<para><link xlink:href="d077fec2-a058-483e-9ab5-1494afda578a">Microsoft Teams live event overview</link></para>
+			<para><externalLink><linkText>Microsoft Stream live event overview</linkText><linkUri>https://go.microsoft.com/fwlink/?linkid=2007354</linkUri></externalLink></para>
+		</content>
+	</section>
+	<relatedTopics />
+</developerConceptualDocument></topic>
